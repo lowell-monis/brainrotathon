@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "brain cell deleter",
+  "version": "1.0",
+  "description": "you thought procrastination was your only problem? this will make you like ohio",
+  "permissions": ["notifications", "alarms"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
